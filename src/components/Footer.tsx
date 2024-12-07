@@ -61,7 +61,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Download App</h3>
             <p className="text-sm mb-4">Save $3 with App New User Only</p>
             <div className="flex space-x-4">
-              <img src="/qr-code.png" alt="QR Code" className="w-24" />
               
             </div>
             <div className="flex space-x-4 mt-4">

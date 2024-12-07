@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import StarIcon from "./StarIcon"; // Make sure this file exists
-
+import StarIcon from "./StarIcon";
 
 interface Product {
   image: string;
@@ -51,7 +50,6 @@ const products: Product[] = [
     rating: 4,
     reviews: 99,
   },
-  
 ];
 
 const FlashSales: React.FC = () => {
@@ -94,8 +92,8 @@ const FlashSales: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center mb-6">
           <div className="flex items-center space-x-2">
-          <span className="w-2 h-5 bg-red-600 rounded"></span>
-            <p className="text-xl font-bold">Today's</p>
+            <span className="w-2 h-5 bg-red-600 rounded"></span>
+            <p className="text-xl font-bold">Today&apos;s</p>
           </div>
           <div className="flex space-x-2">
             <button className="p-2 rounded-full bg-gray-200 hover:bg-gray-300">
@@ -169,9 +167,7 @@ const FlashSales: React.FC = () => {
                     objectFit="contain"
                     className="rounded-lg transition-opacity duration-300"
                   />
-                  <div
-                    className="absolute inset-0 bg-black opacity-0 hover:opacity-70 flex items-center justify-center rounded-lg transition-opacity duration-300"
-                  >
+                  <div className="absolute inset-0 bg-black opacity-0 hover:opacity-70 flex items-center justify-center rounded-lg transition-opacity duration-300">
                     <button className="bg-white text-black px-4 py-2 rounded-md">
                       Add To Cart
                     </button>

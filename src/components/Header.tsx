@@ -2,14 +2,9 @@
 
 import Link from "next/link";
 import Menu from "./Menu"; // Import your Menu component
-import Image from "next/image";
-import SearchBar from "./SearchBar"; // Import your SearchBar component
-import dynamic from "next/dynamic";
 import {FcSearch} from "react-icons/fc";
 import {AiOutlineHeart, AiOutlineShoppingCart} from "react-icons/ai";
 
-
-const HeaderIcons = dynamic(() => import("./HeaderIcons"), { ssr: false }); // Import your HeaderIcons component
 
 const Header: React.FC = () => {
   return (

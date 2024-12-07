@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-oauth/google": "^0.12.1",
+    "is-number": "^7.0.0",
     "next": "14.2.18",
     "react": "^18",
     "react-dom": "^18",
